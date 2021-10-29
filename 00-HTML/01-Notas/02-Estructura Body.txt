@@ -80,3 +80,17 @@ contenedoras:
         </div>
 
         -> una mala practica es realizar todo el contenido de una pagina solo con divs
+
+
+Etiquetas de contenido:
+
+    Texto:
+        <p>Soy un texto</p>
+
+    Encabezado:
+        <h1>Soy un titulo</h1> -> va de 1 a 6
+
+    Hipervinculos:
+        <a href=""></a>
+
+    
