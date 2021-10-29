@@ -93,4 +93,9 @@ Etiquetas de contenido:
     Hipervinculos:
         <a href=""></a>
 
+
+-> Link con todas las etiquetas que se pueden usar
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+
     
