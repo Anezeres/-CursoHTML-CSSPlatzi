@@ -1,0 +1,18 @@
+Paginas Estaticas:
+
+    Paginas con texto e imagenes que no van a cambiar:
+
+    Blogs
+    Paginas informativas o Langing-Pages
+
+    No estan conectadas a una base de datos:
+
+    No hay login ni cambios por parte del cliente
+
+Paginas Dinamicas:
+
+    web apps
+
+    Facebook, Twitter, Gmail.. etc
+
+    -Tiene un login donde podemos guardar nuestra informacion

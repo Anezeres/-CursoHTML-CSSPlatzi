@@ -1,0 +1,72 @@
+¿Que es un Front-end?
+
+El frontend es el desarrollador que va a manejar las cosas en el lado del cliente
+navegador o navegadores.
+
+    interaccion, animacion, estilos de una pagina web.
+
+
+    Estandares de un frontend:
+
+    HTML 
+    CSS
+    JavaScript
+
+Los frontend tambien trabajan los frameworks de CSS como:
+
+    Bootstrap 
+
+frameworks de libreria de JavaScript, como:
+
+    Angular
+    React 
+
+
+Y manejan los procesadores de CSS
+
+    Sass
+    Less
+    Stylus
+
+Y compiladores de JavaScript
+
+    Babel 
+    webpack
+
+Paginas que encontré en un comentario:
+
+https://mediaqueri.es/ -> Algunas ideas sobre como deberíamos implementar el diseño responsive en nuestro sitio.
+
+https://coolors.co/palettes/trending -> Paletas de colores.
+
+https://www.fontpair.co/ -> Ver cuales fuentes puedes combinar. Y obviamente Google Fonts para obtener esas fuentes.
+
+https://fonts.google.com/ -> Fuentes para CSS
+
+https://icons8.com/ -> Iconos, vectores, música y algunos recursos más…
+
+
+
+Documentaciones:
+
+
+    https://cssreference.io/ -> CSS
+
+    https://htmlreference.io/ -> HTML
+
+    https://browserdiet.com/es/ -> Optimizar sitios web (Perder peso en la web 😛). Recuerda que Platzi tiene también un curso de Web Performance
+
+    https://platzi.com/clases/web-performance/ -> Curso de Platzi
+
+
+Practica Jugando:
+
+    https://cssgridgarden.com/#es -> 
+
+    https://flexboxfroggy.com/#es ->
+
+    http://www.flexboxdefense.com/ ->
+
+    https://flukeout.github.io/ ->
+
+

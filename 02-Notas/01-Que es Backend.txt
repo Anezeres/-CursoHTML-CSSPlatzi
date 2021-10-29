@@ -1,0 +1,32 @@
+¿Que es un Backend?
+
+El backend trabaja por el lado del servidor, manejando toda la logica detras de las peticiones de usuario
+
+Lenguajes de programacion:
+
+    Python
+    Node JS
+    PHP
+    Java
+
+Frameworks de Backend:
+
+    Django -> Python
+    Spring -> Java
+    Express -> JavaScrip
+    Lavarel -> PHP
+
+Donde subir la aplicacion:
+
+    Heroku
+    AWS
+    Google Clouds
+    Digital Ocean
+
+    Esto mayormente lo hacen los DevOps
+
+Backend trabaja con bases de datos:
+
+    MySQL -> relacional
+    MongoDB -> No relacional
+    PostgreSQL
