@@ -1,0 +1,22 @@
+HTML
+
+ver imagen 00
+
+container princial:
+
+    header:
+
+        Logo
+        Nombre de empresa 
+        Barra de navegacion
+
+    Main Container:
+
+        Main Content -> 
+
+            Se puede separar en secciones
+
+        SideBar -> contenedor lateral 
+
+    Footer:
+    

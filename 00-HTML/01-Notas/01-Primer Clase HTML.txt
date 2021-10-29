@@ -1,0 +1,45 @@
+Al parecer el primer archivo, siempre se tiene que llamar 
+
+index.html
+
+el index va a ser la pagina inicial que el servidor va a buscar al momento de tener que abrir un proyecto
+
+primera linea que le dice que tipo de archivo es
+
+    <!DOCTYPE html>
+
+luego sigue el contenedor padre
+
+    <html lang=""> <- tiene una etiqueta llamada lang="" , le dice que lenguaje tiene nuestra pagina
+    
+    </html>
+
+        Dentro de este html, generaremos 2 contenedores mas
+
+        <head><head>
+        y 
+        <body>
+        <body>
+
+        En la etiqueta de head -> Todo lo que es importante para el navegador, esto no es visual para el usuario final 
+            dependencias
+            librerias externas
+            fuentes
+            css
+
+        body -> lo que se ve para el usuario
+
+
+
+dentro de head ->
+
+    <meta charset=""/> -> "UTF-8" -> Esto sirve para que el navegador pueda entender caracteres especiales
+    <meta name="description"> -> Por parte del CEO para que cuando la gente busque en internet algo, aparezca nuestra pagina
+    content="descripcion"> -> esta descripcion es la tipica que aparece debajo de las busquedas de google
+    <meta name="robots" content="index,follow">
+    <title>Mi primer pagina</title>
+    <meta name="viewport" content="width = device-width, inictial-scale= 1.0"> -> esto hace para que el producto sea responsive
+    <link rel="stylesheet" href=""> -> para cargar hoja de estilos
+
+https://i.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-2019.pdf 
+

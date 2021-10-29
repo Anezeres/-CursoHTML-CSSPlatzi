@@ -1,0 +1,82 @@
+Primeras etiquetas en nuestras etiqueta de body
+
+existe:
+    etiquetas de contenido 
+    etiquetas contenedoras
+
+contenedoras:
+
+    <header></header> -> contenedor de header
+
+    Si quiero que mi header tenga una barra de nav
+
+    <header>
+        <nav>
+            
+        </nav>
+    </header>
+
+    -------------
+
+    <main></main>
+
+    Existen secciones adentro del main
+
+    <main>
+        <section>
+
+        </section>
+    </main>
+
+    y puedo colocar arcticulos, dentro de cada section
+
+    <main>
+        <section>
+            <article>
+                
+            </article>
+
+        </section>
+    </main>
+
+    -> -> ->
+
+    para crear listas del super en main
+
+    ul y ol, nos entregaran listas, pero son diferentes
+
+    ol -> lista ordenada (numeros)
+    ul -> lista desordenada (Puntos)
+
+    li -> dentro de ul, list item
+
+    <main>
+        <ul>
+            <li>
+                    
+            </li>
+            
+        </ul>
+        <ol>
+                
+        </ol>
+    </main>
+
+
+    ---------------------------------
+
+
+
+
+    <footer></footer>
+
+    -> estas listas contenedoras no muestran nada, si renderizo el proyecto no va a mostrar nada
+    pero es una buena practica, es la maquetacion del contenido, se le llama semantica de HTML
+
+    Existe un comodin llamado div:
+
+        <div>
+            
+        </div>
+
+        -> una mala practica es realizar todo el contenido de una pagina solo con divs
