@@ -1,0 +1,46 @@
+<div class="block-element">Esta es una etiqueta div</div>
+<p class="block-element">Esto es un parrafo</p>
+<div>
+    <p class="parrafo">Soy texto</p>        
+    <p class="parrafo">Soy texto</p>        
+    <p class="parrafo">Soy texto</p>        
+</div>
+
+
+.block-element{
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+}
+
+<div class="block-element">Esta es una etiqueta div</div>
+<p class="block-element">Esto es un parrafo</p>
+
+Estos 2 elementos existen como un display-block -> va a usar el 100% de espacio
+que tenga adelante
+
+por defecto estan display-block, por eso siempre aparecen los parrafos debajo
+de otros, pq ocupan el 100%
+
+
+display = inline -> bro, si tienes espacio, dame del tuyo,
+no puedo utilizar el margin o el padding, podria usarlo en la parte
+derecha o izquierda, tampoco le puedo dar width o heift
+
+
+.nav{
+    background-color: aqua;
+    padding: 20px;
+    list-style: none;
+    text-align: center; -> coloca los items en el centro
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+con display : inline-block, puedo agregarle margin y pading

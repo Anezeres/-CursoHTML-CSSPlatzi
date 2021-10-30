@@ -1,0 +1,43 @@
+Display flex, no ayuda a organizar todo de una manera mas responsive
+
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+}
+
+ahora viven en una sola linea, y esto es gracias a que el padre, osea
+container, tiene display flex
+
+cada box tiene display block, pero como el padre tiene flex, se comportan de 
+otra manera
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-direction: column; -> la forma en que quiero que se organicen mis cosas
+}
+
+row-reverse
+colum-reverse
+
+siempre se necesita un contenedor principal para poder utilizar flex
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; -> si no tiene espacio se va colocando por abajo
+}
+
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    justify-content: center; -> centra el contenido
+}
+
+justify-content: flex-end;-> todo a la izquierda o abajo
+
+justify-content: space-around; -> se acomodan
+justify-content: space-evenly; -> se acomodan a la misma medida

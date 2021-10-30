@@ -1,0 +1,41 @@
+POSICION
+
+todas las etiquetas viene por defecto como static, se quedan donde tu las pones
+
+    #two{
+        background-color: green;
+        position: static;
+    }
+
+    no podemos usar top, left, right, bottom,
+    solo se puede usar cuando tenemos relative o absolute
+    o fixed o sticky
+
+
+
+absolute -> 
+
+    #two{
+        background-color: green;
+        position: absolute;
+    }
+
+    el 2 se acaba de poner por encima del 3
+    pierde la posicion en donde estaba
+    si antes eran 4 contenedores, ahora son 3
+
+relative ->
+
+    #two{
+        background-color: green;
+        position: relative;
+        bottom: 15px;
+    }
+
+    sigue en su posicion
+
+
+
+fixed -> 
+
+sticky ->
