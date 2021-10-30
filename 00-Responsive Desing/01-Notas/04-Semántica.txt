@@ -1,0 +1,35 @@
+Usa las etiquetas de html y deja de usar tantos divs
+
+
+textos
+
+con texto siempre usemos medidas relativas, para que las personas que necesitan ayuda visual
+para aumentar el tamañano puedan hacerlo
+
+si pongo
+
+h1{
+    font-size: 30px;
+}
+
+eso no va a cambiar pq es absoluto
+le quitamos oportunidad a personas con rpoblemas visuales
+
+
+labels, alt y titles
+
+labelsAltTitle
+
+
+
+
+Mis puntos más importantes sobre estas clases de accesibilidad
+
+“La accesibilidad es una acto de democratización al acceso de productos digitales, es la reivindicación del derecho de una persona con ciertas capacidades diferentes a acceder a las mismas plataformas.”
+
+-La semántica jugará un papel importante en la lectura de la plataforma por parte de un software
+-Es recomendable en cualquier situación el uso de medidas relativas (REM, EM) pues estas modificarán su tamaño en nuestra página cuando un usuario modifique el tamaño de las letras en la configuración de su navegador.
+-El uso de <label> en los formularios facilita la interacción de las personas y software con ellos. Por ejemplo al apretar la barra de espacio en un input que despligue un submenú, este se mostrará.
+-alt en las imágenes proporciona una descripción para un lector de contenido.
+-El atributo title puede ser usado en las etiquetas img y a para dar una descripción de sus contenidos al hacer hover.
+
