@@ -1,0 +1,6 @@
+Google fonts
+
+añado el lunk a el html
+
+No es bueno cargar mas de una foto externa
+Importarlas siempre en la etiqueta head

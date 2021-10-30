@@ -1,0 +1,13 @@
+Variables
+
+:root{ -> raiz o punto de partida de un proyecto
+
+    --primary-color:#003476;
+    --secundary-color:#b4d2f7;
+    --header-size : 4rem;
+    --font : 1.8rem;
+}
+
+para llamar a la Variable
+
+var(--secundary-color:#b4d2f7)
