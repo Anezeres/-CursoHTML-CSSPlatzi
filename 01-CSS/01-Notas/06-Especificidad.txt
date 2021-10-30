@@ -59,7 +59,11 @@ ACÁ MODIFICO EL COLOR DE LOS CUADRITOS, EL DE ARRIBA TIENE UNA especificidad
 MENOS AL DE ABAJO, POR LO CUAL, SE APLICARÁ LA MODIFICACION DE ABAJO
 
 No es necesario utilizar tanto id, solo entendiendo la especificidad
+<<<<<<< HEAD
 es posible usar menos clases
 
 
 todo se puede hacer, con clases, o con etiquetas o con pseudo elementos
+=======
+es posible usar menos clases
+>>>>>>> 954a345e3084cb0ed864d264bd839f089183a999

@@ -8,6 +8,7 @@ https://www.youtube.com/watch?v=wDUwGo98JTA&feature=youtu.be
 
 Box sizing
 
+<<<<<<< HEAD
 https://developer.mozilla.org/es/docs/Web/CSS/box-sizing
 
 Respuestas Juego
@@ -44,3 +45,6 @@ Respuestas Juego
 30 [for^=“Sa”]
 31 [for$=“to”]
 32 [for*=“obb”]
+=======
+https://developer.mozilla.org/es/docs/Web/CSS/box-sizing
+>>>>>>> 954a345e3084cb0ed864d264bd839f089183a999
