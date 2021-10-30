@@ -1,0 +1,8 @@
+Encontré esta pagina con unos apuntes muy lindos
+
+https://losapuntesdemajo.vercel.app/ 
+
+Esta es la tecnologia que vamos a utilizar para estilizar nuestro proyecto
+
+HTML -> en un dibujo seria el lapiz
+CSS -> colores

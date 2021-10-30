@@ -1,0 +1,138 @@
+DOCUMENTACION DE PC y PE -> 
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
+
+
+Pseudo clases y Pseudo elementos
+
+como nombrar las clases?
+    BEM -> https://en.bem.info/methodology/faq/#why-bem
+
+
+
+en ul del nav le pondremos el nombre de
+
+main-nav -> va a ser el contenedor principal de mi barra de navegacion
+
+a cada item de la lista le pondremos el nombre de 
+
+main-nav__item -> la li o etiqueta va a ser un elemento de mi main nav
+
+
+    El resultado es el siguiente:
+
+        <ul class="main-nav">
+            <li class="main-nav__item"><a href="">Home</a></li>
+            <li class="main-nav__item"><a href="">Cursos</a></li>
+            <li class="main-nav__item"><a href="">Instructores</a></li>
+            <li class="main-nav__item"><a href="">Blog</a></li>
+        </ul>
+
+
+Ahora en CSS, que se debe hacer primero?
+
+Primero tenemos que mandar a llamar los elementos y como tenemos clases 
+podemos empezar con las clases
+
+primero trabajamos sobre ul -> clase llamada .main-nav
+
+    .main-nav{
+        margin-top: 10px;
+        list-style: none; -> Sirve para quitar los puntos a la lista
+        padding-left: 0; -> padding es un espacio interno en un contenedor
+        background-color: #13a4a4; -> Colorea la cajita azul antes dicha
+    }
+
+    #Aclaracion ul, es una caja y aparece en azul en el google
+
+Ahora, trabajaremos sobre items li -> clase llamada .main-nav__item
+
+    .main-nav__item{
+        display: inline-block; -> coloca los elementos de forma lineal
+    }
+
+
+Si quiero modificar algo mas interno, como las etiquetas <a> que estan dentro de li,
+se hace de la siguiente manera
+
+    .main-nav__item a{ -> a esto se le llama ser especifico en CSS
+        color: white; -> pone color blancos
+        padding: 5px; -> pone padding naranja a las etiquetas <a>
+        border-radius: 2px; -> bordea las etiquetas
+        text-decoration: none; -> le quita la linea debajo de los <a>
+    }
+
+
+
+/* Ahora si las dichosas Pseudo Clases */
+
+.main-nav__item a:hover{
+    color: blue;
+}
+
+que es el hover? -> es cuando el mouse está arriba del elemento, es un efecto, es 
+un estado
+
+.main-nav__item a:hover{} -> así se invoca la Pseudo clase, la a y el hover
+tiene que estar juntos
+
+/* Ahora si los dichosas Pseudo Elementos */
+
+.main-nav__item a::after{ -> despues del elemento agregale este contenido (after)
+    content: " | "; -> esto le agrega a cada etiqueta un " | " en su lado derecho
+}
+
+
+.main-nav__item a::after{} -> así se invoca el Pseudo elemento, la a y el after
+tiene que estar juntos
+
+
+DIFERENCIAS
+
+Pseudo Clases -> DEFINE EL ESTADO ESPECIAL DE UN Elemento 
+
+    :class
+
+
+Pseudo Elemento -> DEFINE EL ESTILO DE UNA PARTE ESPECIFICA DE UN ELEMENTO
+
+    ::element
+
+
+DOCUMENTACION DE PC y PE -> 
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
+
+
+RESUMEN DE BEM
+
+<!-- BLOQUE -->
+<main class="Padre">
+	<!-- BLOQUE__ELEMENTO --> 
+	<section class="Padre__Hijo">
+		<!-- BLOQUE__ELEMENTO--MODIFICADOR -->
+		<article class="Padre__Hijo--Mayor"></article>
+	</section>
+	<section class="Padre__Hijo"></section>
+	<section class="Padre__Hijo"></section>
+	<section class="Padre__Hijo"></section>
+ </main>
+
+
+ /*Algunos Pseudo-classes:*/
+:root{}
+//representa elemento HTML, con la especificidad de clase //usado para anidar variables CSS
+:active
+//se activa al hacer clic down
+:visited
+//cambio visual cuando se visita un enlace
+:hover
+//permite cambiar el estado de un elemento cuando elmause se sobrepone sobre él
+:first-child // para afectar solo al primer hijo // se coloca en el padre (ul) para afectar a su primer hijo (li)
+:last-child // para afectar solo al ultimo hijo
+:not  //negar una codiciones (ignorar una condicion) //ejemplo .clase:not(last-child)
+//afecto a todos menos el ultimo
+:empty 
+//ayuda a detectar cuando un elemento esta vacio. //ejemplo .class:empty{background:yellow;} //resaltar
+:nth-child() 
+// tag:nth-child(2){} //afectara al segundo elemento

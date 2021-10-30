@@ -1,0 +1,53 @@
+Para conectar HTML y CSS
+
+usamos una etiqueta en el head llamada link
+
+una buena practica es tener una sola carpeta para HTML y para el CSS
+
+<link rel="stylesheet" href="../02-Archivos CSS/style.css">
+
+con este codigo de arribam, la conexion estaria realizada
+
+formas de llamar las etiquetas para agregarle los estilos
+
+1)
+    por el elemento:
+
+        p{
+            color: blue;
+            font-size: 40px;
+        }
+
+    de esta manera todas las etiquetas de p,
+
+
+2) 
+    por la clase:
+
+        en la etiqueta que quiero poner la clase, tal que así 
+
+        <h1 class="titulo">Soy un titulo</h1>
+
+        y en el CSS se llama con punto:
+
+        .titulo{
+
+    
+        }  
+
+
+
+3) 
+    por la ID:
+
+        en la etiqueta que quiero poner la clase, tal que así 
+
+        <h1 id="texto">Soy un titulo</h1>
+
+        y en el CSS se llama con #:
+
+        #texto{
+
+    
+        }   
+

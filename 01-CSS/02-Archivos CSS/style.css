@@ -1,0 +1,21 @@
+/* Por etiqueta */
+
+p{
+    color: blue;
+    font-size: 40px;
+}
+
+/* Por Clase */
+
+.titulo{
+    color: aqua;
+
+}
+
+/* por ID */
+
+#texto{
+    color: red;
+    font-size: 24px;
+
+}
