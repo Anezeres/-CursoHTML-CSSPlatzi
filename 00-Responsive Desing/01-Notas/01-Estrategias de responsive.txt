@@ -1,0 +1,12 @@
+Patrones de Maquetacion
+
+1) mostlyFluid
+
+
+
+lo que necesitamos de inicio es un contenedor principal 
+que lleve el display para manipular el contenido
+
+con lo hecho hasta ahora con el mostlyFluid
+
+ya tenemos la primera parte

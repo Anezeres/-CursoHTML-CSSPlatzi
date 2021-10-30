@@ -1,0 +1,20 @@
+Cambio en el que puedo reposicionar los elementos de la pagina
+
+@media (min-width:480px){ -> si mi pantalla es mas chica que esto, sucederá el codgio, es como un if
+    
+}
+
+@media (min-width:768px){
+
+}
+
+@media (min-width:1024px){
+
+}
+
+la recomendacion para crear un diseño responsive es
+Mobile first / Only
+
+el codigo siempre tiene que ir en ese orden
+
+de chico a grande
