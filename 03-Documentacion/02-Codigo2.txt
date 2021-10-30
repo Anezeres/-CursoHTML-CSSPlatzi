@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Flex</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="only screen and (min-width:768px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="only screen and (min-width:1024px)">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <figure class="logo">
+        <img src="./images/logo.webp" alt="Logo Platzi">
+        <strong>Platzi</strong>
+      </figure>
+      <nav class="navbar">
+        <ul class="menu">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Courses</a>
+          </li>
+          <li>
+            <a href="">Teachers</a>
+          </li>
+          <li>
+            <a href="">Blog</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="content">
+        <figure class="platzi-team">
+          <img src="./images/platzi.jpeg" alt="Platzi team">
+        </figure>
+        <p>Aprende desde cero a crear el futuro web con nuestros Cursos Online Profesionales de Tecnología. 🚀¡Cursos de Desarrollo, Diseño, Marketing y Negocios!</p>
+      </section>
+      <aside class="routes">
+        <h2>Pogreso</h2>
+        <figure class="routes-images">
+          <img src="./images/route_1.png" alt="Route">
+          <img src="./images/route_2.png" alt="Route">
+          <img src="./images/route_3.png" alt="Route">
+          <img src="./images/route_4.png" alt="Route">
+        </figure>
+      </aside>
+    </main>
+    <footer class="footer">
+      <p>Made with ❤️ in Platzi</p>
+    </footer>
+  </body>
+</html>
+CSS
+Main (mobile first)
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #003049;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid steelblue;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.logo strong {
+  margin-left: 5px;
+  font-size: 3rem;
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  margin: 0 5px;
+}
+.menu li a {
+  font-weight: 700;
+  text-decoration: none;
+}
+.content {
+  width: 100%;
+  padding: 20px 10px;
+  border: 1px solid greenyellow;
+  text-align: center;
+}
+.platzi-team {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 15px;
+}
+.platzi-team img {
+  width: 100%;
+}
+.routes {
+  padding: 20px 10px;
+  border: 1px solid greenyellow;
+}
+.routes h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+.routes-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.routes-images img {
+  width: 100%;
+  max-width: 298px;
+  height: 82px;
+}
+.footer {
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid orange;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  font-weight: 700;
+}
+Tablet
+
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  margin-bottom: 0;
+}
+.content p {
+  width: 100%;
+  max-width: 530px;
+  margin: 0 auto;
+}
+Desktop
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.routes-images {
+  width: 300px;
+}

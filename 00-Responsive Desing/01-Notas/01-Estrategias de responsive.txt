@@ -10,3 +10,6 @@ que lleve el display para manipular el contenido
 con lo hecho hasta ahora con el mostlyFluid
 
 ya tenemos la primera parte
+
+Vamos a implementar la primera opcion para trabajar con
+media nose que

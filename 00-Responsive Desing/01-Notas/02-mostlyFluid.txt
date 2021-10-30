@@ -1,0 +1,24 @@
+Cuando trabajamos con flex, necesitamos una clase llamada
+container
+
+.c1, .c2 , .c3, .c4, .c5{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+} 
+
+.c4{
+    height: auto ;
+}
+
+con este .c4 -> hacemos que el contenedo escoja su propia
+algura, pq arriba le pusiemos una directa, y por eso no se 
+muestra
+
+.container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+con este codigo limitamos el crecimiento del container

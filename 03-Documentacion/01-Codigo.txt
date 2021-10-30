@@ -1,0 +1,129 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./laptop.css" media="screen and (min-width: 800px)">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <div class="c c1"></div>
+        <div class="c c2"></div>
+        <div class="c c3"></div>
+        <div class="c c4"></div>
+        <div class="c c5"></div>
+        <div class="c c6"></div>
+    </main>
+</body>
+</html>
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.c
+{
+    width: 100%;
+    min-width: 150px;
+    height: calc(17vh - 1rem);
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+
+.c1
+{
+    background-color: #c72929;
+}
+
+.c2
+{
+    background-color: #df6060;
+}
+
+.c3
+{
+    background-color: #e4b342;
+}
+
+.c4
+{
+    background-color: #a0db32;
+}
+
+.c5
+{
+    background-color: #43d39c;
+}
+
+.c6
+{
+    background-color: #43b6d3;
+    margin: 0;
+}
+
+|
+tablet.css
+
+.c2, .c3
+{
+    width: 48%;
+}
+
+.c4
+{
+    height: calc(60vh - 5rem);
+}
+|
+laptop.css
+
+.c1, .c2
+{
+    height: calc((100vh/3) - 4rem);
+}
+
+.c1
+{
+    width: 39%;
+}
+
+.c2
+{
+    width: 58%;
+}
+
+.c3, .c4, .c5
+{
+    width: calc((100%/3) - 2%);
+    height: calc((100vh/3) - 4rem);
+}
+
+.c6
+{
+    width: 100%;
+    height: calc((100vh/3) - 4rem);
+}
