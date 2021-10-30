@@ -1,0 +1,22 @@
+Existen 2 tipos de botones:
+
+    <input type="submit">
+    <button>Enviar</button>
+
+se ven iguales pero no son lo mismo
+
+al button le podemos poner un submit
+
+<button type="submit">Enviar</button> -> para formularios
+
+
+el input coloca automaticamente la palabra enviar, mientras que la
+etiqueta button, puede cambiarse el texto
+
+al input se le puede cambiar el texto con el atributo value
+
+<input type="submit" value="nombre">
+
+
+input -> de forma directa en los formularios
+button -> es mas flexible para cualquier otra cosa
