@@ -1,0 +1,58 @@
+https://www.w3schools.com/html/html_form_input_types.asp -> pagina con una lista de types para imputs
+https://developer.mozilla.org/es/docs/Web/HTML/Element/input -> lo mismo de arriba
+
+existe una etiqueta llamada form que es el contenedo del formulario
+
+le dice al navegador que lo que sigue es un formulario
+
+el atributo action = "" -> es un comando relacionado con JavaScript, para enviar la informacion a 
+la base de datos
+
+Luego usaremos una etiqueta label, quedando así
+
+    <form action="">
+        <label for=""></label>
+
+    </form>
+
+    y dentro del label, ya se puede colocar el input quedando así
+
+    <form action="">
+        <label for="">
+            <input type="text">
+        </label>
+    </form>
+
+
+Ahora si queremos que una persona ingrese su nombre
+
+    <label for="nombre"></label> -> le agregamos a for="nombre"
+
+    con un imput tipo texto y le pondremos un id="", que debe ser el mismo que sale en for
+
+    <label for="">
+        <input type="text" id="nombre">
+    </label>
+
+
+Para colocarle un texto, le pondremos un <span>
+
+tipos de datos:
+
+    date -> fecha
+    datetime-local -> Tiempo fecha de nuestra area local, es como resumir muchas cosas
+    text -> Texto
+    time -> hora
+    number -> numero
+    week -> semana
+    month -> mes
+    summit -> enviar
+
+atributos de inputs
+
+    placeholder -> Coloca texto de ejemplo
+    name = "" -> se debe colocar el mismo nombre de for, id y sirve para enviar informacion
+
+
+a la hora de realizar conexiones con JavaScript, el name es muy importante puesto que al darle al boton
+summit, en la barra de busqueda aparece la informacion que he recoletado

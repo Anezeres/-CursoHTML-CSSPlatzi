@@ -1,0 +1,39 @@
+creamos un main
+
+dentro ponemos un select
+
+y dentro del select le poner option
+
+en value -> debemos poner el mismo valor de texto
+
+    <select name="cursos" id="">
+        <option value="JavaScript">JavaScript</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+    </select>
+
+Al aparecer, esto de select no es muy bueno, puesto que para usuarios de 
+computadora es facil, pero para los de celular es imposible eso, pues tiene que hacer
+scroll hasta encontrar un dato, encambio usaremos un label tipo lista
+
+<input list="text"> y abajo ponemos datalist
+
+<input list="cursos">
+    <datalist id="cursos">
+
+    </datalist>
+
+y ponemos dentro de datalist, al opciones con option
+
+<input list="cursos">
+<datalist id="cursos">
+    <option value="JavaScript"></option>
+    <option value="HTML"></option>
+    <option value="CSS"></option>
+    <option value="Python"></option>
+    <option value="Java"></option>
+</datalist>
+
+queda así

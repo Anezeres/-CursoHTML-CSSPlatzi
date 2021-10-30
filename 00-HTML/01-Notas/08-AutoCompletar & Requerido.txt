@@ -1,0 +1,14 @@
+Para que google autocomplete la informacion se usa el atribujo en el input
+
+autocomplete=""
+
+Los valores pueden ser:
+
+    name
+    email
+    country
+    postal-code
+
+y para que en el formulario hallan elementos requeridos
+
+required
