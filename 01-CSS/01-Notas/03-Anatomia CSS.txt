@@ -1,0 +1,13 @@
+Anatomia 
+
+p {
+    color: red;
+}
+
+p -> Selector
+
+color: Propiedad
+
+red; -> Valor de Propiedad
+
+todo junto es una declaracion

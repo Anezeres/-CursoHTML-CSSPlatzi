@@ -1,0 +1,65 @@
+El ID es unico
+
+Solo puede existir un ID en una pagina
+Pero las clases son genericas
+No puedo tener el mismo ID en 2 elementos
+Funciona para CSS y JavaScritp
+
+
+#page-title{
+    font-family: Arial, Helvetica, sans-serif; -> manda a llamar 3 por si no Funciona una
+    
+
+}
+
+.title{
+    font-size: 18px;
+    font-family: serif; -> cuando lo cargue en la pagina no va a cambiar*
+
+}
+
+*Esto se debe gracias a la especificidad, yo estoy llamando a la clases
+pero el navegador va a escoger la mas importante, en este caso el id
+
+En google, me muestra el orden o la importancia de los estilos, y ahí puedo
+ver que es lo que no cuadra
+
+
+Si yo quisiera añadirle estilo a solo una de las etiquetas
+
+como blog, por ejemplo
+
+El estilo colocado al lado del li o del coso, es una mala practica, 
+porque el estilo endebido, tiene mas importancia que una class y un id juntos
+
+
+#main-nav .blog{
+    background-color: red;
+}
+
+En esta parte cometí un error, le coloqué class al li, en vez del ul, 
+y no cambiaba de color
+
+Utilizar tanto Id, no es una buena practica, las buenas practicas
+son usar clases y selectores
+
+.nav a{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav .blog{
+    background-color: red;
+}
+
+ACÁ MODIFICO EL COLOR DE LOS CUADRITOS, EL DE ARRIBA TIENE UNA especificidad
+MENOS AL DE ABAJO, POR LO CUAL, SE APLICARÁ LA MODIFICACION DE ABAJO
+
+No es necesario utilizar tanto id, solo entendiendo la especificidad
+es posible usar menos clases
+
+
+todo se puede hacer, con clases, o con etiquetas o con pseudo elementos
