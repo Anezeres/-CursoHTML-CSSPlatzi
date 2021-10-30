@@ -1,0 +1,55 @@
+ABSOLUTAS VS RELATIVAS
+
+PIXELES -> esa medida no va a cambiar sin importar la medida de la pantalla
+
+RELATIVAS -> 30% cambia dependiendo de la pantalla
+
+
+p { -> Absoluta
+    font-size: 18px; -> sin importar el tamaño de la pantalla siempre tendremos 18 px
+}
+
+p { -> Relativa
+    font-size: 50%;
+}
+
+main{
+    background-color: red;
+    width: 100%; -> siempre ocupará el 100% relativa
+    height: 500px;
+}
+
+MEDIDAS
+
+em ->  acronimo de elemento, va a tomar el tamaño de fuente
+que tenga el padre directo,  
+
+.text-container{
+    font-size: 1.5em;
+}
+
+a main no le pusimos tamaño de fuente, por lo que tomará la
+medida del html
+
+como el html tiene (16 px -> 1em)
+
+body{
+    font-size: 20px; -> ahora 1em, serán 20px
+
+em, no es de las mejores medidas
+
+*************
+
+REM -> siempre un rem será igual a 16 px
+
+html{
+    font-size: 62.5%; -> siempre se tiene que poner esta medida en los css
+}
+
+p {
+    font-size: 1.6rem; 
+}
+
+1.6 rem -> 16 px
+1.7 rem -> 1.7px
+2.0 rem -> 20px

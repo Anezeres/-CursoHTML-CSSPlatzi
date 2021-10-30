@@ -1,0 +1,24 @@
+/* CASO HERMANO CERCANO */
+
+/* h2 +p{
+    color: red;
+}
+ */
+ 
+/*  HERMANO GENERAL */
+ 
+/* h2 ~ p{
+    color: red;
+} */
+ 
+/* HIJO */
+/* div > p{
+    color: red;
+
+} */
+
+/* DECENDIENTES */
+div p{
+    color: red;
+
+}

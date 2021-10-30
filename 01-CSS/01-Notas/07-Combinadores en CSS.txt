@@ -1,0 +1,79 @@
+Los combinadores me ayudan mucho a tener una especificidad
+mucho mas alta sin tener que utilizar id, etiqueta etiqueta etiqueta
+
+<div>
+    <h2>Soy un h2</h2>
+    <p>Soy un parrafo</p>
+    <h2>Soy un h2</h2>
+    <h3>Soy un h3</h3>
+    <p>Soy un parrafo</p> -> está lejos del h2, por abajo
+    <h2>Soy un h2</h2>
+    <p>Soy un parrafo</p>
+</div>
+
+la etiqueta div, es el padre y tenemos h2,h3, y p
+
+Que hermanos cercanos estamos buscando
+
+h2 + p{ -> combiador hermano cercano
+    color: red;
+}
+
+Quiero que me ponga en color rojo todas las etiquetas h2, 
+que sean cercanas a una etiqueta parrafo
+
+p, es el que se modifica, h2 es como la prueba mirando hacia
+arriba, nunca hacia abajo
+
+
+HERMANO GENERAL
+signo equivalente o tilde alt +126
+
+<div>
+    <h2>Soy un h2</h2>
+    <p>Soy un parrafo</p>
+    <h2>Soy un h2</h2>
+    <h3>Soy un h3</h3>
+    <p>Soy un parrafo</p>
+</div>
+
+h2 ~ p{
+    color: red;
+}
+
+se modifican todas, puesto que tienen un hermano de forma GENERAL
+siempre y cuando existan a la misma linea
+ 
+
+HIJOS 
+<div>
+    <article>
+        <p>Soy un texto</p>
+    </article>
+    <article>
+        <p>Soy un texto</p> -> su padre es un section
+    </article>
+    <section>
+        <div>
+            <p>Soy un texto</p>
+        </div>
+    </section>
+    <p>Soy un texto</p>
+</div>
+
+
+
+div > p{ -> etiqueta p, que sea hija de un div de forma directa
+    
+}
+
+DECENDIENTES -> LO QUE HEMOS USADO EN LAS CLASES PASADAS
+
+div p{ -> todos los textos tienen color rojo
+    color: red;
+
+}
+
+todas las etiquetas parrafo que esten adentro de un div
+
+https://flukeout.github.io/ -> Juego para practicar

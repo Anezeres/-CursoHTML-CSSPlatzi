@@ -1,0 +1,29 @@
+max-width o max-height
+min-width o min-height
+vw
+vh
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+ocupa el 100% de height y el 100% width
+
+
+section{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto; -> arriba y abajo no le agregues margin y a los datos autocompleta 
+    background-color: blueviolet;
+}
+
+section{
+    width: 80%; -> siempre ocupará el 80% disponible
+    min-width: 320px; -> deja de ser pequeño a esta medida
+    max-width: 500px; -> ignora el 80% y deja de crecer
+    height: 500px;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
