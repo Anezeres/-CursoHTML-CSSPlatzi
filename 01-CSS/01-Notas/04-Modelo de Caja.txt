@@ -1,0 +1,96 @@
+Modelo de Caja
+
+https://developer.mozilla.org/es/docs/Web/CSS/box-sizing 
+
+1) Margin -> espacio externo, saco el brazo... de mi cuerpo al brazo hay un margin
+
+    2) Borde -> Linea que define a cada uno de los elementos
+
+        3) Padding -> No es un espacio externo, es interno, como si fuera de mi piel hacia adentro
+
+            4) Contenido -> Puede ser el texto, las imagenes, videos, lo que sea
+
+                width -> Lo largo de la caja contenedora o el tamaño del contenido
+                height -> lo alto de la caja contenedora o el tamaño del contenido
+
+
+
+Y dependiendo de la posicion donde se encuentre el contenido podemos jugar con 
+
+    TOP
+    BOTTOM
+    RIGHT 
+    LEFT
+
+
+Ver la imagen 01 -> de la documentacion
+
+el margin es transparente 
+Color de fondo -> viene transparente por defecto, y se puede modificar
+imagen de fondo -> transparente tambien
+Relleno -> es el pading, tambien es transparente pq no se ve
+Bordes -> transparente por defecto tambien
+Contenido -> textos, las imagenes, los videos
+
+
+
+main {
+    width: 100%; -> ancho de 100%
+    height: 500px; -> alto de 500px
+    border: 10px solid grey; 
+    padding: 20px 35px;
+}
+
+hay un problema que sucede con el width
+
+width: 100%; -> le doy un ancho de 100%, sin embargo
+tiene que hacer un movimiento para poder ver el boder gris
+es uno de los errores mas comunes
+
+entonces la respuesta es la siguiente, aunque tenga un ancho de 
+100%, como puede ver en el css, tiene un padding de 35 px,
+
+entonces a ese 100% le tiene que sumar los 35 px de padding
+
+y ADEMAS 10 px de borde
+
+Hay que tener control es las dimensiones en la que se trabaja
+
+como se arregla?
+
+el navegador siempre le arregla estilos a las etiquetas
+
+como resetear esos estilos?
+Selector universal
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+AHORA CON ESO EL BORDE YA ESTARIA 100% EN LA ESQUINA
+
+PERO AUN HAY SCROLL, el excedente en el pading es el que hace
+que mi pagina tenga que hacer scroll
+
+SOLUCION ->
+
+    box-sizing: border-box; -> sume el padding con el width del
+    elemento
+
+    Por lo tanto, si yo le agrego mas padding el tamaño del
+    width disminuye
+
+    para que no se salga del navegador y tengamos las dimensionesc
+    correctas
+
+
+Entonces si yo le pongo un width de 500px, si seran 500 px
+y no se tiene que sumar el padding y el border
+
+la cosa es que si agrego margin, ya es otra cosa
+
+este coso universal siempre se debe poner
+
+https://developer.mozilla.org/es/docs/Web/CSS/box-sizing

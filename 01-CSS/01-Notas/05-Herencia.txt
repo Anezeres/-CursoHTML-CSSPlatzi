@@ -1,0 +1,55 @@
+Sistema de Cascada en CSS
+
+Herencia
+
+Codigo CSS que se le va a pasar de un padre a un hijo
+
+html{
+    font-size: 75%; -> tamaño de letra
+    font-family: Verdana, Geneva, Tahoma, sans-serif; -> fuente
+}
+
+h1{
+    font-size: inherit; -> heredar
+}
+
+ver la imagen 02-Herencia
+para entender esta chanda, es como si, hereda del contenedor
+que tenga mas arriba
+
+
+ORDEN DE UNA DECLARACION Y ESPEFICIDAD DE CSS
+
+1) Importancia
+
+    2) ESPEFICIDAD
+
+        3) Orden de las fuentes
+
+
+1) si 2 declaraciones tienen la misma Importancia, la ESPEFICIDAD
+de las reglas decidirá cual aplicar
+y si tienen la misma ESPEFICIDAD, el orden de fuentes controla 
+el resultado final
+
+IMPORTANCIA ->  
+primero el navegador aplica sus estilos -> estilos de navegador
+
+segundo declaracion de las normas en nuestro css
+
+tercero, declaraciones importantes (utilizar el !important)
+esto es super mala practica, si lo haces a la loca, evitemos el importan, no es una buena practica
+
+ESPEFICIDAD ->
+
+(1,0,0,0,0) -> 5 numeros de izquiera a derecha marca la ESPEFICIDAD 
+(1,0,0,0,0) -> !Important
+(0,1,0,0,0) -> Inline styles
+(0,0,1,0,0) -> #id
+(0,0,0,1,0) -> .class
+(0,0,0,0,1) -> tag
+
+ORDEN DE LAS FUENTES->
+
+CSS siempre va a empezar de la primera linea hasta abajo como una cascada, y los estilos que se van 
+a aplicar siempre van a ser los que esten hasta abajo
