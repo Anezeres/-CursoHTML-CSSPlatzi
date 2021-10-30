@@ -41,3 +41,40 @@ justify-content: flex-end;-> todo a la izquierda o abajo
 
 justify-content: space-around; -> se acomodan
 justify-content: space-evenly; -> se acomodan a la misma medida
+
+#############
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+
+se alinean de forma vertical en el flexbox,tengo la sospecha de que si colocas
+una medida como height, los cambio de flex se veran afectados en la misma 
+direction
+
+align-items: stretch; -> se estiran si no coloco una medida determinada y
+se estira siempre al 100% del contenedor padre
+
+align-items: baseline; -> lo mismo que el anterior, pero, tomará el espacio del
+contenido, como que se apachurra
+
+order : (numero) -> cambian las posiciones
+
+.box1{ -> ocupará el espacio que falta
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+###############
+
+.box{
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+Cuando no hay espacio, empiezan a bajar los contenedores y empiezan a ocupar todo
+el espacio de abajo
