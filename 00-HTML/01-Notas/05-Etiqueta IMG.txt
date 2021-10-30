@@ -31,3 +31,5 @@ tambien existe un etiqueta llamada
 
 <figcaption>Mensaje</figcaption>
 
+figure sirve para colocar varias imagenes
+

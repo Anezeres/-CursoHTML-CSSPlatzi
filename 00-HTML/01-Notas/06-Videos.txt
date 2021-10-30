@@ -1,0 +1,31 @@
+muy sencillo solo con 
+
+<main>
+    <section>
+        <video src=""></video>
+    </section>
+</main>
+
+ya puedo invocar un video
+
+si al lado se src, ponermos controls, aparecen los controles de video
+
+otro atributo es
+
+preload="auto" -> esto es para que el video se descargue desde antes de que el usuario abra la pagina
+
+
+si quieres que un video empiece en un minuto especifico
+
+<video src="" -> al lado del archivo invocado se poner  (#t=10,60)
+
+
+<video src=""></video> -> dentro de las 2 etiquetas pondemos
+
+se debe quitar el src=""
+
+y se debe poner en la etiqueta source
+
+<source src=""/> -> con su ubicacion y su nuevo indicador de donde empieza y donde termina -> (#t=10,60)
+
+entonces podemos colocar varia etiquetas de source en una sola etiqueta de video para que escoga el navegador cual usars
