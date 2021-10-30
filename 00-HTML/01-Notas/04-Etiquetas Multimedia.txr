@@ -1,0 +1,29 @@
+Tipo de Imagenes:
+
+    Lossy -> con perdida
+
+        Cargan mas rapido en el navegador
+        son imagenes pequeñas
+
+        JPG
+        JPEG
+
+        fotografia
+
+    Lossless -> sin perdida
+
+        Imagenes pesadas porque no perdemos calidad
+
+        GIF
+        PNG 8
+        PNG 24
+
+        logos
+
+        SVG -> Formato vector, nunca vamos a encontrar pixeles
+
+
+En promedio una imagen debe pesar al rededor de 70kb
+
+Pagina llamada -> Tiny PNG , para optimizar imagenes o -> https://tinypng.com/
+Verexif -> para limpiar metadatos de una imagen -> https://www.verexif.com/

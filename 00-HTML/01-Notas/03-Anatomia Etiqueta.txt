@@ -1,0 +1,14 @@
+<a href="#">Soy un Link</a>
+
+ancla, con etiqueta de cierre, pq va a llevar un contenido que nos va a decir a donde nos va a llevar
+
+Soy un Link-> es el contenido en la etiqueta
+
+a la etiqueta y todo el contenido se llama elemento
+
+<a href="#"> -> al href se le llama atributo
+
+href ->Nombre del atributo
+=""-> valor del atributo
+
+-> HTML -> HyperText Markup Language

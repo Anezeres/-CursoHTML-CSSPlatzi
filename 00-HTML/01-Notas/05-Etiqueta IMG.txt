@@ -1,0 +1,33 @@
+Un acortador super fast
+
+colocas ! y le das enter y aparece automaticamente el estilo HTML
+
+Para descargar imagenes usemos -> https://www.pexels.com/es-es/ 
+
+Y si vamos a usar una imagen, descargaremos la grande, la mediana y la pequeña y la llevamos a -> https://tinypng.com/
+
+es bueno hacer uso de 
+
+main-> section-> tal
+
+
+<img src="" alt="">
+src=""-> decirle en donde se encuentra la imagen, se pueden poner url o imagenes en carpetas
+
+se colocas
+
+./ y empiezan a salir las carpetas
+para ir mas atras
+
+../
+
+alt=""-> es una descripcion que le vamos a dar a la imagen
+
+
+normalmente se mete en divs las imagenes
+pero la buena practica debe ser metela en un figure
+
+tambien existe un etiqueta llamada 
+
+<figcaption>Mensaje</figcaption>
+
